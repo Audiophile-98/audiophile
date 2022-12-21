@@ -1,4 +1,7 @@
 .header {
+  &__burgers {
+    display: none;
+  }
   background-color: $Black;
   padding: 35px 0;
   &__nav {
@@ -40,4 +43,37 @@
 // responsive__part //
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    &__nav {
+      margin-top: 30px;
+      margin: 0 auto;
+      width: 689px;
+    }
+    &__list {
+      display: none;
+    }
+    &__logo {
+      width: 143px;
+      height: 25px;
+    }
+    &__burgers {
+      width: 16px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 3px;
+    }
+    &__burger {
+      width: 16px;
+      height: 3px;
+      background-color: #ffffff;
+    }
+    &__content {
+      display: flex;
+      align-items: center;
+      column-gap: 0;
+      
+  }
+  &__logo1{
+    margin-left: -100px;
+  }
 }
