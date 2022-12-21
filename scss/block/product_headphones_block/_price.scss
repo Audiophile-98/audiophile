@@ -23,10 +23,11 @@
   }
   &__images {
     width: 90%;
-    padding: 62px 100px;
+    padding: 50px 100px 50px 90px;
     background: #f1f1f1;
     border-radius: 8px;
     text-align: center;
+    margin: 0;
   }
   &__img {
     width: 100%;
@@ -46,6 +47,26 @@
   &__img--page3 {
     width: 100%;
   }
+  &__mark1 {
+    width: 148px;
+    height: 193px;
+  }
+  &__mark2 {
+    width: 175px;
+    height: 195px;
+  }
+  &__xx59 {
+    width: 190px;
+    height: 195px;
+  }
+  &__zx9 {
+    width: 143px;
+    height: 190px;
+  }
+  &__zx7 {
+    width: 133px;
+    height: 191px;
+  }
   &__subtitle {
     font-weight: 700;
     font-size: 24px;
@@ -58,5 +79,52 @@
   }
   &__button {
     @include button;
+  }
+  @media only screen and (max-width: 769px) {
+    &__images {
+      width: 223px;
+      height: 318px;
+      margin-left: 11px;
+      padding: 60px 0;
+    }
+    &__mark1 {
+      padding: 0;
+      margin: 0;
+      width: 148px;
+      height: 193px;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    &__list {
+      flex-direction: column;
+    }
+    &__images {
+      width: 327px;
+      height: 120px;
+      padding: 10px 0;
+    }
+    &__mark1 {
+      width: 73px;
+      height: 95px;
+    }
+    &__mark2 {
+      width: 86px;
+      height: 96px;
+    }
+    &__button {
+      margin-bottom: 56px;
+    }
+    &__xx59 {
+      width: 79px;
+      height: 83px;
+    }
+    &__zx9 {
+      width: 72px;
+      height: 86px;
+    }
+    &__zx7 {
+      width: 60px;
+      height: 87px;
+    }
   }
 }

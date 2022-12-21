@@ -62,7 +62,7 @@
     mix-blend-mode: normal;
     opacity: 0.5;
 
-    margin: 32px 0 40px;
+    margin: 32px 0;
   }
   &__money {
     font-weight: 700;
@@ -126,5 +126,45 @@
   }
   &__item:nth-child(2) {
     flex-direction: row-reverse;
+  }
+  @media only screen and (max-width: 769px) {
+    &__item {
+      gap: 69px;
+    }
+    &__img {
+      margin: 0;
+      padding: 133px 50px;
+      width: 281px;
+      height: 500px;
+    }
+    &__logo {
+      width: 181px;
+      height: 201px;
+    }
+    &__header {
+      font-size: 28px;
+    }
+    &__subtext {
+      width: 98%;
+    }
+    &__money {
+      margin-bottom: 31px;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    &__item {
+      flex-direction: column;
+    }
+    &__img {
+      width: 100%;
+      height: 327px;
+      padding: 50px 73px;
+    }
+    &__content {
+      width: 100%;
+    }
+    &__subtext {
+      width: 85%;
+    }
   }
 }
