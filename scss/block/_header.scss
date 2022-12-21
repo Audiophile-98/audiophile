@@ -1,6 +1,22 @@
 .header {
   background-color: $Black;
   padding: 35px 0;
+  &__logo {
+    display: flex;
+    align-items: center;
+    // gap: 42px;
+  }
+  &__hamburger {
+    display: none;
+    flex-direction: column;
+    row-gap: 3px;
+  }
+  &__hr--hamburger {
+    width: 20px;
+    height: 3px;
+    background-color: #ffffff;
+    border-radius: 1.5px;
+  }
   &__nav {
     display: flex;
     justify-content: space-between;
@@ -35,9 +51,25 @@
     opacity: 0.5;
     margin-top: 36px;
   }
+  @media only screen and (max-width: 769px) {
+    &__logo {
+      gap: 42px;
+    }
+    &__hamburger {
+      display: flex;
+    }
+    &__hr {
+      display: none;
+    }
+    &__list {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 426px) {
+    &__logo {
+      gap: 100px;
+    }
+  }
 }
 
 // responsive__part //
-
-@media (min-width: 768px) and (max-width: 1024px) {
-}
