@@ -173,6 +173,41 @@ li {
 .footer__logo:hover {
   fill: #d87d4a;
 }
+.footer__icon {
+  display: flex;
+}
+@media only screen and (max-width: 769px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .footer__subcontent {
+    flex-direction: column;
+  }
+  .footer__text {
+    width: 100%;
+  }
+  .footer__icon {
+    margin-left: 500px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .footer__content {
+    align-items: center;
+  }
+  .footer__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__boxs {
+    align-items: center;
+    text-align: center;
+  }
+  .footer__icon {
+    margin: 48px auto;
+  }
+}
 
 svg {
   margin-left: 16px;
@@ -216,6 +251,19 @@ svg {
 .bring__img {
   border-radius: 5px;
 }
+@media only screen and (max-width: 769px) {
+  .bring__box {
+    flex-direction: column-reverse;
+  }
+  .bring__img {
+    width: 100%;
+  }
+  .bring__content {
+    width: 80%;
+    margin: 63px auto;
+    text-align: center;
+  }
+}
 
 .section__hero {
   background-color: #101010;
@@ -232,6 +280,11 @@ svg {
   letter-spacing: 1.42857px;
   text-transform: uppercase;
   color: #ffffff;
+}
+@media only screen and (max-width: 469px) {
+  .hero {
+    padding: 98px 0;
+  }
 }
 
 .headphones__item {
@@ -302,6 +355,35 @@ svg {
 .headphones__item:nth-child(2) {
   flex-direction: row-reverse;
 }
+@media only screen and (max-width: 769px) {
+  .headphones__item {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 40px;
+  }
+  .headphones__item:nth-child(2) {
+    flex-direction: column;
+  }
+  .headphones__img {
+    width: 95%;
+  }
+  .headphones__content {
+    text-align: center;
+    width: 80%;
+  }
+  .headphones__header {
+    width: 100%;
+  }
+  .headphones__subtext {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .headphones__logo {
+    width: 100%;
+    height: 80%;
+  }
+}
 
 .katalog__list {
   position: relative;
@@ -363,6 +445,24 @@ svg {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #d87d4a;
+}
+@media only screen and (max-width: 426px) {
+  .katalog__list {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .katalog__item {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding: 20px;
+  }
+  .katalog__title {
+    padding: 0;
+  }
+  .katalog__img {
+    position: inherit;
+  }
 }
 
 .product__back {
