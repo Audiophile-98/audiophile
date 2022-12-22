@@ -971,6 +971,9 @@ svg {
     width: 689px;
     margin: 0 auto;
   }
+  .hero__img {
+    display: none;
+  }
 }
 .product {
   margin-top: 160px;
@@ -1131,6 +1134,36 @@ svg {
 }
 .zx9__bgimg {
   margin-top: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .product__container {
+    width: 689px;
+    margin: 0 auto;
+  }
+  .product__zx9 {
+    width: 689px;
+    height: 720px;
+    align-items: center;
+  }
+  .zx9__content {
+    width: 349px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  .zx9__title {
+    text-align: center;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 156px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
