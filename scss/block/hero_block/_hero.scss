@@ -5,17 +5,17 @@
 .hero {
   padding: 98px;
   background-color: #131313;
-  &__box {
+  &__box--home {
     display: flex;
     column-gap: 50px;
   }
-  &__content {
+  &__content--home {
     margin-top: 130px;
     display: flex;
     flex-direction: column;
     width: 396px;
   }
-  &__subtitle {
+  &__subtitle--home {
     margin-bottom: 24px;
     font-family: "Manrope";
     font-style: normal;
@@ -28,7 +28,7 @@
     mix-blend-mode: normal;
     opacity: 0.5;
   }
-  &__title {
+  &__title--home {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
@@ -38,7 +38,7 @@
     text-transform: uppercase;
     color: #ffffff;
   }
-  &__text {
+  &__text--home {
     margin-top: 24px;
     margin-bottom: 40px;
     font-family: "Manrope";
@@ -53,7 +53,7 @@
     mix-blend-mode: normal;
     opacity: 0.75;
   }
-  &__link {
+  &__link--home {
     @include button;
   }
 }
@@ -67,7 +67,7 @@
       width: 689px;
       margin: 0 auto;
     }
-    &__img {
+    &__img--home {
       display: none;
     }
   }
