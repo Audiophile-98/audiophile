@@ -1,7 +1,4 @@
 .header {
-  &__burgers {
-    display: none;
-  }
   background-color: $Black;
   padding: 35px 0;
   &__logo {
@@ -51,8 +48,9 @@
     color: #d87d4a;
   }
   &__hr {
+    width: 1110px;
     opacity: 0.5;
-    margin-top: 36px;
+    margin-top: 86px;
   }
   @media only screen and (max-width: 769px) {
     &__logo {

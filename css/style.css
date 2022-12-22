@@ -53,9 +53,6 @@ li {
   background-color: #000000;
   padding: 35px 0;
 }
-.header__burgers {
-  display: none;
-}
 .header__logo {
   display: flex;
   align-items: center;
@@ -99,8 +96,9 @@ li {
   color: #d87d4a;
 }
 .header__hr {
+  width: 1110px;
   opacity: 0.5;
-  margin-top: 36px;
+  margin-top: 86px;
 }
 @media only screen and (max-width: 769px) {
   .header__logo {
@@ -966,6 +964,15 @@ svg {
   background: #fbaf85;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .hero__container {
+    width: 689px;
+    margin: 0 auto;
+  }
+  .hero__bg {
+    display: none;
+  }
+}
 .product {
   margin-top: 160px;
 }
