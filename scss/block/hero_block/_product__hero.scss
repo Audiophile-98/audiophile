@@ -149,5 +149,16 @@
       text-transform: uppercase;
       color: #ffffff;
     }
+    &__text--home {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.75;
+    }
   }
 }

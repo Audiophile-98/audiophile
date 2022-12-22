@@ -971,6 +971,110 @@ svg {
     width: 689px;
     margin: 0 auto;
   }
+  .hero__content--home {
+    margin: 0 auto;
+  }
+  .hero__box--home {
+    width: 689px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero__img--home {
+    display: none;
+  }
+  .hero__subtitle--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .hero__title--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .hero__text--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  .hero__bg--home {
+    background-image: url("../img/hero__desktop.png");
+  }
+  .hero__link--home {
+    margin-left: 110px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero {
+    padding: 0;
+  }
+  .hero__container {
+    width: 328px;
+    margin: 0 auto;
+  }
+  .hero__content--home {
+    width: 328px;
+    text-align: center;
+  }
+  .hero__title--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .hero__subtitle--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  .hero__text--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  .hero__link--home {
+    margin-left: 60px;
+    margin-bottom: 112px;
+  }
   .hero__img--home {
     display: none;
   }
@@ -1163,6 +1267,17 @@ svg {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
+  }
+  .zx9__text--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
   }
 }
 
