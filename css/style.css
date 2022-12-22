@@ -96,7 +96,6 @@ li {
   color: #d87d4a;
 }
 .header__hr {
-  width: 1110px;
   opacity: 0.5;
   margin-top: 86px;
 }
@@ -965,12 +964,12 @@ svg {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .hero {
+    position: relative;
+  }
   .hero__container {
     width: 689px;
     margin: 0 auto;
-  }
-  .hero__bg {
-    display: none;
   }
 }
 .product {
