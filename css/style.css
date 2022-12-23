@@ -899,17 +899,17 @@ svg {
   padding: 98px;
   background-color: #131313;
 }
-.hero__box--home {
+.hero__box--hero {
   display: flex;
   column-gap: 50px;
 }
-.hero__content--home {
+.hero__content--hero {
   margin-top: 130px;
   display: flex;
   flex-direction: column;
   width: 396px;
 }
-.hero__subtitle--home {
+.hero__subtitle--hero {
   margin-bottom: 24px;
   font-family: "Manrope";
   font-style: normal;
@@ -922,7 +922,7 @@ svg {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-.hero__title--home {
+.hero__title--hero {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -932,7 +932,7 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero__text--home {
+.hero__text--hero {
   margin-top: 24px;
   margin-bottom: 40px;
   font-family: "Manrope";
@@ -945,7 +945,7 @@ svg {
   mix-blend-mode: normal;
   opacity: 0.75;
 }
-.hero__link--home {
+.hero__link--hero {
   width: 160px;
   padding: 16px 29px;
   background: #d87d4a;
@@ -959,30 +959,32 @@ svg {
   color: #ffffff;
   text-align: center;
 }
-.hero__link--home:hover {
+.hero__link--hero:hover {
   background: #fbaf85;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .hero {
+    padding: 0;
     position: relative;
   }
   .hero__container {
     width: 689px;
     margin: 0 auto;
   }
-  .hero__content--home {
+  .hero__content--hero {
     margin: 0 auto;
+    margin-top: 130px;
   }
-  .hero__box--home {
+  .hero__box--hero {
     width: 689px;
     margin: 0 auto;
     text-align: center;
   }
-  .hero__img--home {
+  .hero__img--hero {
     display: none;
   }
-  .hero__subtitle--home {
+  .hero__subtitle--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
@@ -995,7 +997,7 @@ svg {
     mix-blend-mode: normal;
     opacity: 0.5;
   }
-  .hero__title--home {
+  .hero__title--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
@@ -1006,7 +1008,7 @@ svg {
     text-transform: uppercase;
     color: #ffffff;
   }
-  .hero__text--home {
+  .hero__text--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
@@ -1017,11 +1019,12 @@ svg {
     mix-blend-mode: normal;
     opacity: 0.75;
   }
-  .hero__bg--home {
+  .hero__bg--hero {
     background-image: url("../img/hero__desktop.png");
   }
-  .hero__link--home {
+  .hero__link--hero {
     margin-left: 110px;
+    margin-bottom: 170px;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1032,11 +1035,11 @@ svg {
     width: 328px;
     margin: 0 auto;
   }
-  .hero__content--home {
+  .hero__content--hero {
     width: 328px;
     text-align: center;
   }
-  .hero__title--home {
+  .hero__title--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
@@ -1047,7 +1050,7 @@ svg {
     text-transform: uppercase;
     color: #ffffff;
   }
-  .hero__subtitle--home {
+  .hero__subtitle--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
@@ -1060,7 +1063,7 @@ svg {
     mix-blend-mode: normal;
     opacity: 0.5;
   }
-  .hero__text--home {
+  .hero__text--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
@@ -1071,43 +1074,43 @@ svg {
     mix-blend-mode: normal;
     opacity: 0.75;
   }
-  .hero__link--home {
+  .hero__link--hero {
     margin-left: 60px;
     margin-bottom: 112px;
   }
-  .hero__img--home {
+  .hero__img--hero {
     display: none;
   }
 }
 .product {
   margin-top: 160px;
 }
-.product__zx9--home {
+.product__zx9--hero {
   border-radius: 8px;
   display: flex;
   background: #d87d4a;
   flex-direction: row-reverse;
   column-gap: 140px;
 }
-.product__zx7--home {
+.product__zx7--hero {
   margin-top: 50px;
   border-radius: 8px;
   height: 320px;
   background-image: url("../img/hero__zx7__speaker.png");
 }
-.product__yx1--home {
+.product__yx1--hero {
   display: flex;
   column-gap: 30px;
   margin-top: 50px;
   border-radius: 8px;
 }
 
-.yx1__content--home {
+.yx1__content--hero {
   width: 540px;
   background: #f1f1f1;
   border-radius: 8px;
 }
-.yx1__title--home {
+.yx1__title--hero {
   margin-left: 95px;
   margin-top: 100px;
   font-family: "Manrope";
@@ -1120,7 +1123,7 @@ svg {
   margin-bottom: 32px;
   color: #000000;
 }
-.yx1__link--home {
+.yx1__link--hero {
   margin-left: 95px;
   width: 160px;
   padding: 16px 29px;
@@ -1134,7 +1137,7 @@ svg {
   text-transform: uppercase;
   color: #000000;
 }
-.yx1__link--home:hover {
+.yx1__link--hero:hover {
   background: #000000;
   border: 1px solid #000000;
   font-family: "Manrope";
@@ -1146,11 +1149,11 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.yx1__img--home {
+.yx1__img--hero {
   border-radius: 8px;
 }
 
-.zx7__title--home {
+.zx7__title--hero {
   padding-top: 100px;
   margin-left: 95px;
   font-family: "Manrope";
@@ -1163,7 +1166,7 @@ svg {
   margin-bottom: 32px;
   color: #000000;
 }
-.zx7__link--home {
+.zx7__link--hero {
   margin-left: 95px;
   width: 160px;
   padding: 16px 29px;
@@ -1177,7 +1180,7 @@ svg {
   text-transform: uppercase;
   color: #000000;
 }
-.zx7__link--home:hover {
+.zx7__link--hero:hover {
   background: #000000;
   border: 1px solid #000000;
   font-family: "Manrope";
@@ -1190,11 +1193,11 @@ svg {
   color: #ffffff;
 }
 
-.zx9__contnet--home {
+.zx9__contnet--hero {
   margin-right: 100px;
   width: 349px;
 }
-.zx9__title--home {
+.zx9__title--hero {
   margin-top: 133px;
   margin-right: 100px;
   margin-bottom: 24px;
@@ -1208,7 +1211,7 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.zx9__text--home {
+.zx9__text--hero {
   margin-right: 100px;
   width: 349px;
   font-family: "Manrope";
@@ -1221,7 +1224,7 @@ svg {
   opacity: 0.75;
   margin-bottom: 40px;
 }
-.zx9__link--home {
+.zx9__link--hero {
   padding: 15px 30px;
   background: #000000;
   font-family: "Manrope";
@@ -1233,42 +1236,47 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.zx9__link--home:hover {
+.zx9__link--hero:hover {
   background: #4c4c4c;
 }
-.zx9__bgimg--home {
+.zx9__bgimg--hero {
   margin-top: 100px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .product__container--home {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .product__container--hero {
     width: 689px;
     margin: 0 auto;
   }
-  .product__zx9--home {
+  .product__zx9--hero {
     width: 689px;
-    height: 720px;
     align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
   }
-  .zx9__content--home {
+  .product__yx1--product {
+    width: 689px;
+  }
+  .zx9__content--hero {
     width: 349px;
     margin: 0 auto;
     text-align: center;
     align-items: center;
+    margin-bottom: 64px;
   }
-  .zx9__title--home {
-    text-align: center;
+  .zx9__title--hero {
+    margin-top: 60px;
     font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
-    font-size: 156px;
+    font-size: 56px;
     line-height: 58px;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
   }
-  .zx9__text--home {
+  .zx9__text--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
@@ -1278,6 +1286,45 @@ svg {
     color: #ffffff;
     mix-blend-mode: normal;
     opacity: 0.75;
+  }
+  .zx9__img--hero {
+    width: 197.21px;
+    height: 237px;
+  }
+  .product__zx7--hero {
+    background-image: url("../img/responsive--zx7--home--tablet.png");
+  }
+  .zx7__contnet--hero__title--hero {
+    margin-left: 65px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .yx1__bg {
+    width: 339px;
+    height: 320px;
+    background-image: url("../img/responsive--yx1--home--tablet.png");
+  }
+  .yx1__content--hero {
+    width: 339px;
+    height: 320px;
+    background: #f1f1f1;
+    border-radius: 8px;
+  }
+  .yx1__title--hero {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
   }
 }
 
