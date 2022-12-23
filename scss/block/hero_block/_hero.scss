@@ -3,7 +3,7 @@
   padding-bottom: 0;
 }
 .hero {
-  padding: 98px;
+  padding: 98px 0;
   background-color: #131313;
   &__box {
     display: flex;
@@ -60,12 +60,15 @@
 
 // responsive__part //
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (max-width: 769px) {
   .hero {
     position: relative;
     &__container {
       width: 689px;
       margin: 0 auto;
+    }
+    &__img {
+      display: none;
     }
   }
 }
