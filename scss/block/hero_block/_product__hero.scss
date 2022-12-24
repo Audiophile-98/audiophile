@@ -1,19 +1,19 @@
 .product {
   margin-top: 160px;
-  &__zx9 {
+  &__zx9--home {
     border-radius: 8px;
     display: flex;
     background: #d87d4a;
     flex-direction: row-reverse;
     column-gap: 140px;
   }
-  &__zx7 {
+  &__zx7--home {
     margin-top: 50px;
     border-radius: 8px;
     height: 320px;
     background-image: url("../img/hero__zx7__speaker.png");
   }
-  &__yx1 {
+  &__yx1--home {
     display: flex;
     column-gap: 30px;
     margin-top: 50px;
@@ -21,12 +21,12 @@
   }
 }
 .yx1 {
-  &__content {
+  &__content--home {
     width: 540px;
     background: #f1f1f1;
     border-radius: 8px;
   }
-  &__title {
+  &__title--home {
     margin-left: 95px;
     margin-top: 100px;
     font-family: "Manrope";
@@ -39,16 +39,16 @@
     margin-bottom: 32px;
     color: #000000;
   }
-  &__link {
+  &__link--home {
     margin-left: 95px;
     @include lighter__button;
   }
-  &__img {
+  &__img--home {
     border-radius: 8px;
   }
 }
 .zx7 {
-  &__title {
+  &__title--home {
     padding-top: 100px;
     margin-left: 95px;
     font-family: "Manrope";
@@ -61,17 +61,17 @@
     margin-bottom: 32px;
     color: #000000;
   }
-  &__link {
+  &__link--home {
     margin-left: 95px;
     @include lighter__button;
   }
 }
 .zx9 {
-  &__contnet {
+  &__contnet--home {
     margin-right: 100px;
     width: 349px;
   }
-  &__title {
+  &__title--home {
     margin-top: 133px;
     margin-right: 100px;
     margin-bottom: 24px;
@@ -85,7 +85,7 @@
     text-transform: uppercase;
     color: #ffffff;
   }
-  &__text {
+  &__text--home {
     margin-right: 100px;
     width: 349px;
     font-family: "Manrope";
@@ -98,7 +98,7 @@
     opacity: 0.75;
     margin-bottom: 40px;
   }
-  &__link {
+  &__link--home {
     padding: 15px 30px;
     background: #000000;
     font-family: "Manrope";
@@ -113,7 +113,52 @@
       background: #4c4c4c;
     }
   }
-  &__bgimg {
+  &__bgimg--home {
     margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .product {
+    &__container--home {
+      width: 689px;
+      margin: 0 auto;
+    }
+    &__zx9--home {
+      width: 689px;
+      height: 720px;
+      align-items: center;
+    }
+  }
+  .zx9 {
+    &__content--home {
+      width: 349px;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+    }
+    &__title--home {
+      text-align: center;
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 156px;
+      line-height: 58px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    &__text--home {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.75;
+    }
   }
 }

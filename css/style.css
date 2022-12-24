@@ -96,8 +96,9 @@ li {
   color: #d87d4a;
 }
 .header__hr {
+  width: 1110px;
   opacity: 0.5;
-  margin-top: 86px;
+  margin-top: 46px;
 }
 @media only screen and (max-width: 769px) {
   .header__logo {
@@ -899,17 +900,17 @@ svg {
   padding: 98px 0;
   background-color: #131313;
 }
-.hero__box {
+.hero__box--home {
   display: flex;
   column-gap: 50px;
 }
-.hero__content {
+.hero__content--home {
   margin-top: 130px;
   display: flex;
   flex-direction: column;
   width: 396px;
 }
-.hero__subtitle {
+.hero__subtitle--home {
   margin-bottom: 24px;
   font-family: "Manrope";
   font-style: normal;
@@ -922,7 +923,7 @@ svg {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-.hero__title {
+.hero__title--home {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
@@ -932,7 +933,7 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.hero__text {
+.hero__text--home {
   margin-top: 24px;
   margin-bottom: 40px;
   font-family: "Manrope";
@@ -945,7 +946,7 @@ svg {
   mix-blend-mode: normal;
   opacity: 0.75;
 }
-.hero__link {
+.hero__link--home {
   width: 160px;
   padding: 16px 29px;
   background: #d87d4a;
@@ -959,7 +960,7 @@ svg {
   color: #ffffff;
   text-align: center;
 }
-.hero__link:hover {
+.hero__link--home:hover {
   background: #fbaf85;
 }
 
@@ -971,39 +972,36 @@ svg {
     width: 689px;
     margin: 0 auto;
   }
-  .hero__img {
-    display: none;
-  }
 }
 .product {
   margin-top: 160px;
 }
-.product__zx9 {
+.product__zx9--home {
   border-radius: 8px;
   display: flex;
   background: #d87d4a;
   flex-direction: row-reverse;
   column-gap: 140px;
 }
-.product__zx7 {
+.product__zx7--home {
   margin-top: 50px;
   border-radius: 8px;
   height: 320px;
   background-image: url("../img/hero__zx7__speaker.png");
 }
-.product__yx1 {
+.product__yx1--home {
   display: flex;
   column-gap: 30px;
   margin-top: 50px;
   border-radius: 8px;
 }
 
-.yx1__content {
+.yx1__content--home {
   width: 540px;
   background: #f1f1f1;
   border-radius: 8px;
 }
-.yx1__title {
+.yx1__title--home {
   margin-left: 95px;
   margin-top: 100px;
   font-family: "Manrope";
@@ -1016,10 +1014,10 @@ svg {
   margin-bottom: 32px;
   color: #000000;
 }
-.yx1__link {
+.yx1__link--home {
   margin-left: 95px;
   width: 160px;
-  padding-top: 16px;
+  padding: 16px 29px;
   border: 1px solid #000000;
   font-family: "Manrope";
   font-style: normal;
@@ -1030,7 +1028,7 @@ svg {
   text-transform: uppercase;
   color: #000000;
 }
-.yx1__link:hover {
+.yx1__link--home:hover {
   background: #000000;
   border: 1px solid #000000;
   font-family: "Manrope";
@@ -1042,11 +1040,11 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.yx1__img {
+.yx1__img--home {
   border-radius: 8px;
 }
 
-.zx7__title {
+.zx7__title--home {
   padding-top: 100px;
   margin-left: 95px;
   font-family: "Manrope";
@@ -1059,10 +1057,10 @@ svg {
   margin-bottom: 32px;
   color: #000000;
 }
-.zx7__link {
+.zx7__link--home {
   margin-left: 95px;
   width: 160px;
-  padding-top: 16px;
+  padding: 16px 29px;
   border: 1px solid #000000;
   font-family: "Manrope";
   font-style: normal;
@@ -1073,7 +1071,7 @@ svg {
   text-transform: uppercase;
   color: #000000;
 }
-.zx7__link:hover {
+.zx7__link--home:hover {
   background: #000000;
   border: 1px solid #000000;
   font-family: "Manrope";
@@ -1086,11 +1084,11 @@ svg {
   color: #ffffff;
 }
 
-.zx9__contnet {
+.zx9__contnet--home {
   margin-right: 100px;
   width: 349px;
 }
-.zx9__title {
+.zx9__title--home {
   margin-top: 133px;
   margin-right: 100px;
   margin-bottom: 24px;
@@ -1104,7 +1102,7 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.zx9__text {
+.zx9__text--home {
   margin-right: 100px;
   width: 349px;
   font-family: "Manrope";
@@ -1117,7 +1115,7 @@ svg {
   opacity: 0.75;
   margin-bottom: 40px;
 }
-.zx9__link {
+.zx9__link--home {
   padding: 15px 30px;
   background: #000000;
   font-family: "Manrope";
@@ -1129,11 +1127,52 @@ svg {
   text-transform: uppercase;
   color: #ffffff;
 }
-.zx9__link:hover {
+.zx9__link--home:hover {
   background: #4c4c4c;
 }
-.zx9__bgimg {
+.zx9__bgimg--home {
   margin-top: 100px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .product__container--home {
+    width: 689px;
+    margin: 0 auto;
+  }
+  .product__zx9--home {
+    width: 689px;
+    height: 720px;
+    align-items: center;
+  }
+  .zx9__content--home {
+    width: 349px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+  .zx9__title--home {
+    text-align: center;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 156px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .zx9__text--home {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
