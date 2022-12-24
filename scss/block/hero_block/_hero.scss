@@ -5,17 +5,17 @@
 .hero {
   padding: 98px 0;
   background-color: #131313;
-  &__box--home {
+  &__box--hero {
     display: flex;
     column-gap: 50px;
   }
-  &__content--home {
+  &__content--hero {
     margin-top: 130px;
     display: flex;
     flex-direction: column;
     width: 396px;
   }
-  &__subtitle--home {
+  &__subtitle--hero {
     margin-bottom: 24px;
     font-family: "Manrope";
     font-style: normal;
@@ -28,7 +28,7 @@
     mix-blend-mode: normal;
     opacity: 0.5;
   }
-  &__title--home {
+  &__title--hero {
     font-family: "Manrope";
     font-style: normal;
     font-weight: 700;
@@ -38,7 +38,7 @@
     text-transform: uppercase;
     color: #ffffff;
   }
-  &__text--home {
+  &__text--hero {
     margin-top: 24px;
     margin-bottom: 40px;
     font-family: "Manrope";
@@ -53,7 +53,7 @@
     mix-blend-mode: normal;
     opacity: 0.75;
   }
-  &__link--home {
+  &__link--hero {
     @include button;
   }
 }
@@ -62,10 +62,121 @@
 
 @media only screen and (max-width: 769px) {
   .hero {
+    padding: 0;
     position: relative;
     &__container {
       width: 689px;
       margin: 0 auto;
+    }
+    &__content--hero {
+      margin: 0 auto;
+      margin-top: 130px;
+    }
+    &__box--hero {
+      width: 689px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    &__img--hero {
+      display: none;
+    }
+    &__subtitle--hero {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+    &__title--hero {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 58px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    &__text--hero {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.75;
+    }
+    &__bg--hero {
+      background-image: url("../img/hero__desktop.png");
+    }
+    &__link--hero {
+      margin-left: 110px;
+      margin-bottom: 170px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero {
+    padding: 0;
+    &__container {
+      width: 328px;
+      margin: 0 auto;
+    }
+    &__content--hero {
+      width: 328px;
+      text-align: center;
+    }
+    &__title--hero {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 1.28571px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    &__subtitle--hero {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.5;
+    }
+    &__text--hero {
+      font-family: "Manrope";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.75;
+    }
+    &__link--hero {
+      margin-left: 60px;
+      margin-bottom: 112px;
+    }
+    &__img--hero {
+      display: none;
     }
   }
 }
